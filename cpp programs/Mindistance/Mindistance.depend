@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1493891126 source:c:\users\marks\desktop\mindistance\main.cpp
+	<iostream>
+	<math.h>
+	<chrono>
+	<cstdlib>
+	<fstream>
+	<unistd.h>
+	<limits>
+

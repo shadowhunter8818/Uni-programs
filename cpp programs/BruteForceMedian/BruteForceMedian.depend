@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1491576125 source:c:\users\marks\desktop\done\cab301\bruteforcemedian\main.cpp
+	<iostream>
+	<math.h>
+	<chrono>
+	<cstdlib>
+	<fstream>
+	<unistd.h>
+
