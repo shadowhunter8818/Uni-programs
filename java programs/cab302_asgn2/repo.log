@@ -1,0 +1,777 @@
+* e480c46 : Added Jdoc info to methods
+* f74dbee : Modified logfile path text area size
+* dcdeb7e : Modified activated/disabled colours to make data readable
+* 2e46e4c : Modified button and text area appearance; simplified action detection
+*   8ede93c : Merge branch 'master' into Asthetics_modifications
+|\  
+| * da0a49c : Added LogHandlerException detection and rethrow method
+| * 81e5516 : Modified exceptions expected by tests
+| * b207612 : Corrected grammar for exceptions
+* | b561e82 : Made distance round to 2 decimal spaces
+* | 1c04cca : Added additional required buttons and their respective functions
+* |   02799e0 : Merge branch 'master' into Asthetics_modifications
+|\ \  
+| |/  
+| * c206294 : Modified the catch{throw} method across classes and added more logs
+* | 2b4a7ae : Included variable loading error message
+* | af2e8e1 : Removed unnecessary padding and print functions
+* | f5bc003 : Reformatted GUI; initialised all at start; improved functionality
+* | 233714f : Asthetic_changes
+|/  
+* ea59e8d : Updated data tables
+* c56fdb0 : Fixed GUI actions and removed loopholes
+* a6ecb27 : updated tables
+* f1db7f0 : Added orders and customers tables
+* 1641bf7 : Added customer showing logdata but not dynamically set
+* 9dd8d93 : disabled Jtable reordering
+* 664322b : fixed close command to what its meant to be
+* e077c23 : Made changes to GUI
+* 9cc22dd : Solved conflict
+*   d8f5af9 : Merge branch 'master' into create_GUI
+|\  
+| * e1c72e7 : updated pizza's
+| * c125f65 : Updated authors
+* | a5b47f4 : Inserted loading function with success/fail message
+* |   92262d1 : Merge branch 'master' into create_GUI
+|\ \  
+| |/  
+| * 96cd39c : Fixed minor issues in tests for pizzas
+| * 0fd3ce0 : Restaurant tests updated
+| * a9cbc74 : test checking and updating
+| * 3421821 : test cases fix
+| *   50b2c78 : Updated pizza sections + Loghandler + Pizza restaurant + pizza factory
+| |\  
+| * | c710533 : Fixed small errors in pizza factory tests
+| |/  
+| * 4b63720 : Pizza Factory
+* | 29ed62c : Updated to GridBagLayout; displayed filepath and reselect option
+* | 56df14a : Reorganised functions; Added Basic button with log loader
+* | 5012661 : Started creating GUI: playing around with GUI window and file-loader
+|/  
+*   d92f839 : Merged in Fil_restaurant (pull request #8)
+|\  
+| * 89756b3 : Removed path addition to filename and added it to test instead.
+| * 86d5add : Corrected Pizza Tests
+| * 14987f6 : Completed PizzaRestaurant for Customers and methods in common
+|/  
+*   88e01eb : Merged in fil_log_handler (pull request #7)
+|\  
+| * 21f8d8e : Removed comments and updated regex groups
+| * 382c1c8 : Removed not tests not relevant to 'Pizzas' and added a couple
+| * 5cde695 : Updated LogHandler Pizza Tests
+| * eae2189 : Completed personal section of LogHandler
+| * a835cc2 : Updated corrupted file
+|/  
+*   51f8ac4 : Merged in customer_factory (pull request #6)
+|\  
+| * 73a5009 : Completed Customer Factory
+| * 786a817 : Fixed some grammatical errors and test locations for deliveries
+* | 3d021ff : Modified again Pizza tests. Previous version was correct
+|/  
+* c582324 : Small fixes for Pizza tests
+*   4b6e400 : Merged in completing_pizza_tests (pull request #5)
+|\  
+| * 1d773f1 : Attempt 1 to remove conflicts,
+| * e6a23ef : Corrected equal assertion for strings
+| * d4eb374 : Added a tests for null LocalTime
+| * 87847c1 : Completed Tests for Pizzas
+| * 9dca06c : Modified and corrected Pizza() abstarct class and subclasses
+| * 93ac9a8 : Fixed minor error for 3 tests
+* | 56dc5cb : LogHandlerCustomerTests
+* | fb68607 : Restaurant Customer tests
+* | 8c264b2 : Customer Factory tests
+* | 44b35e8 : Updated Pizza's and customer tests
+* |   74b212b : Merged in restaurant_pizza_tests (pull request #4)
+|\ \  
+| * | 9bc2792 : Completed tests for pizzas in PizzaRestaurant()
+| * | 3069bcc : Added necessary imports
+* | |   c0c662c : Merged in pizza_factory_tests (pull request #3)
+|\ \ \  
+| * | | 6121513 : Added tests for PizzaFactory()
+| |/ /  
+* | |   d3c312b : Merged in log_handler_pizza_tests (pull request #2)
+|\ \ \  
+| |/ /  
+|/| |   
+| * | 7231d61 : Removed unnecessary imports
+| * | a472e01 : Created pizza tests for LogHandler()
+|/ /  
+* |   82d89e7 : Merged in customer_class (pull request #1)
+|\ \  
+| * | 4220135 : Updated README
+|/ /  
+* | 054d41f : Fixed some minor inconsistencies in testing (still A LOT to fix/test)
+* | 9bbc6a2 : Finished Customer() class
+* | 40393c1 : Added code to check for customer parameter requirements
+* | d31f8da : Completed the 3 subclasses including distance calc.
+|/  
+* b838a4f : Corrected Logs
+* 2b3fb4f : CustomerTests 1
+* d5a22fa : Fixed error
+* 475ec52 : Fixed all pizzas working and pizza file
+*   d2f402e : Merge remote-tracking branch 'origin/adding_tests_for_pizza'
+|\  
+| * 5962792 : Added tests for asgn2Pizzas.MargheritaPizza, asgn2Pizzas.MeatLoversPizza and asgn2Pizzas.VegetarianPizza (all the same, just different classes)
+| * 919084d : Testing (again)
+| * 0078762 : Testing from local Eclipse
+* | 9c64787 : pizza type
+* | 6208b65 : Pizza method & pizza types written issues with pizza types
+|/  
+* 0aa9fed : test_end
+* 6c964c4 : test
+* 2ecbdb9 : README.md edited online with Bitbucket
+* 623b042 : README.md edited online with Bitbucket
+* 71e2dfe : README.md edited online with Bitbucket
+* 4a6e5f6 : first commit to test: updated readme
+* 434d3ad : .
+* f748592 : .
+* dfba347 : .
+* e951c1e : .commit e480c464143eb78dbdef7bab0a70c4bafd2ce419
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 31 15:17:10 2017 +1000
+
+    Added Jdoc info to methods
+
+commit f74dbee747c9381b42e049b6bf36109a666a843e
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 21:26:00 2017 +1000
+
+    Modified logfile path text area size
+
+commit dcdeb7e9000ea756d082e8f5e025a4188abd628e
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 21:20:05 2017 +1000
+
+    Modified activated/disabled colours to make data readable
+
+commit 2e46e4c9583404f7c02485f080a404b808ba6575
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:50:25 2017 +1000
+
+    Modified button and text area appearance; simplified action detection
+
+commit 8ede93c0f9bfa1df7f6fba3b4bbe073a271432fe
+Merge: b561e82 da0a49c
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:08:31 2017 +1000
+
+    Merge branch 'master' into Asthetics_modifications
+
+commit da0a49c94cf70e8abe384ee7a90059aca11f0716
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:08:14 2017 +1000
+
+    Added LogHandlerException detection and rethrow method
+
+commit 81e5516fbdf6e1f58eb85e64dfcd2b42a534dadd
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:07:26 2017 +1000
+
+    Modified exceptions expected by tests
+
+commit b2076125428f9017dc76ad2e4e10be28de3b67b0
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:06:44 2017 +1000
+
+    Corrected grammar for exceptions
+
+commit b561e828eb6ed2d60a9f71496725733580b2218d
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 20:04:39 2017 +1000
+
+    Made distance round to 2 decimal spaces
+
+commit 1c04ccae0843cdbd40eeab50af96b6722cb9d7fc
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 18:41:13 2017 +1000
+
+    Added additional required buttons and their respective functions
+
+commit 02799e073e3b41fecca2448b0bd96a55ddd22bf1
+Merge: 2b4a7ae c206294
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 16:52:18 2017 +1000
+
+    Merge branch 'master' into Asthetics_modifications
+
+commit c20629408fc0c4153e2bb9be69fcd2f4052ddff4
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 16:45:43 2017 +1000
+
+    Modified the catch{throw} method across classes and added more logs
+
+commit 2b4a7ae0b27eb52cd1f9a5d69f127d21df7a27e1
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 16:44:00 2017 +1000
+
+    Included variable loading error message
+
+commit af2e8e1bbc378f5bf65e2e271a4642a1331a52d2
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 15:08:59 2017 +1000
+
+    Removed unnecessary padding and print functions
+
+commit f5bc003b3a911853d08d9eeb68bd611d4ce2ec0f
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 14:57:44 2017 +1000
+
+    Reformatted GUI; initialised all at start; improved functionality
+
+commit 233714f449586d1b99fa457fbed9a79da086cc4e
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Tue May 30 13:51:26 2017 +1000
+
+    Asthetic_changes
+
+commit ea59e8d3435742264d56fb8029e17cc14e7d0571
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Tue May 30 12:48:51 2017 +1000
+
+    Updated data tables
+
+commit c56fdb0620153787d76816610aad85b808e4adab
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 30 01:20:37 2017 +1000
+
+    Fixed GUI actions and removed loopholes
+
+commit a6ecb27a93f9f3f495e951a9a4c7603d410bddc9
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 28 22:10:20 2017 +1000
+
+    updated tables
+
+commit f1db7f02b9fda8a7129daa781838fc39af138390
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 28 21:56:34 2017 +1000
+
+    Added orders and customers tables
+
+commit 1641bf7fda0eefc791adcc1b5f56346b97a9c7f0
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 28 18:43:01 2017 +1000
+
+    Added customer showing logdata but not dynamically set
+
+commit 9dd8d93d53a5dbda8448b5c9d0da549dd9009c30
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 28 13:24:20 2017 +1000
+
+    disabled Jtable reordering
+
+commit 664322b7a6b4d9d3eeee3a318419acbe09c8f893
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 28 12:44:49 2017 +1000
+
+    fixed close command to what its meant to be
+
+commit e077c238fbc35f0391b857a9ad21c65c5ea0fa9d
+Author: marks <marks@Shadowhunter>
+Date:   Sat May 27 22:53:39 2017 +1000
+
+    Made changes to GUI
+
+commit 9cc22dd099060595c906891417bfdeb59be81738
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 02:14:51 2017 +1000
+
+    Solved conflict
+
+commit d8f5af9629e330d8f41f6a49daad63ab791fdad8
+Merge: a5b47f4 e1c72e7
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 02:12:55 2017 +1000
+
+    Merge branch 'master' into create_GUI
+    
+    Conflicts:
+            src/asgn2GUIs/PizzaGUI.java
+
+commit a5b47f439d54aa8b3ddfec1ced71ce7c13a475e5
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 02:05:21 2017 +1000
+
+    Inserted loading function with success/fail message
+
+commit e1c72e79135385c4e23d41a7cb6e84b73e00a334
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 22 01:46:17 2017 +1000
+
+    updated pizza's
+
+commit 92262d1aa1793232743a0637910e3cc518326d82
+Merge: 29ed62c 96cd39c
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 01:45:48 2017 +1000
+
+    Merge branch 'master' into create_GUI
+
+commit 29ed62c27ae901af21a540f4bbf98fefcc036532
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 01:34:43 2017 +1000
+
+    Updated to GridBagLayout; displayed filepath and reselect option
+
+commit 56df14a7667e929f835cc8423ca9c831798721d7
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 22 00:41:16 2017 +1000
+
+    Reorganised functions; Added Basic button with log loader
+
+commit c125f650819eeb9463277529841655eb31bd083c
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 22 00:07:12 2017 +1000
+
+    Updated authors
+
+commit 96cd39c8a41478b7252ceff5ca0bc0022b3b0055
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 21 23:21:41 2017 +1000
+
+    Fixed minor issues in tests for pizzas
+
+commit 0fd3ce0ca7ad4dea2a77a764c1ec621cc802ff91
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 17 20:14:03 2017 +1000
+
+    Restaurant tests updated
+
+commit a9cbc740982a976ea39dd08e47b36f60632d9c54
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 17 19:52:10 2017 +1000
+
+    test checking and updating
+
+commit 34218219bc044622a104f2f23b615016a8c446ff
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 17 00:34:42 2017 +1000
+
+    test cases fix
+
+commit 50b2c78e6c6c810f1c9e15c1b4dbe55659952b12
+Merge: c710533 4b63720
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 17 00:04:08 2017 +1000
+
+    Updated pizza sections + Loghandler + Pizza restaurant + pizza factory
+
+commit c710533341e61ecdc8a4207cc7c87844d919847d
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue May 16 23:04:48 2017 +1000
+
+    Fixed small errors in pizza factory tests
+
+commit 4b63720edb6b7974d01c2038f7b87ff2d179bfaa
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Tue May 16 20:14:22 2017 +1000
+
+    Pizza Factory
+
+commit 5012661a03aa8aef2b0671dd5041dc410d202afa
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 15 02:30:18 2017 +1000
+
+    Started creating GUI: playing around with GUI window and file-loader
+
+commit d92f839ae471079984bb4e5315f2f5c7aa1b3221
+Merge: 88e01eb 89756b3
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 14 16:27:42 2017 +0000
+
+    Merged in Fil_restaurant (pull request #8)
+    
+    Fil restaurant
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 89756b36a580b61c53e80566df2755656818b53e
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 15 02:26:30 2017 +1000
+
+    Removed path addition to filename and added it to test instead.
+
+commit 86d5addcbd19f6c679ddf52febdbf2b454389b5a
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 23:20:43 2017 +1000
+
+    Corrected Pizza Tests
+
+commit 14987f62571288570c34cad09b3be43c16f1b22a
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 23:20:14 2017 +1000
+
+    Completed PizzaRestaurant for Customers and methods in common
+
+commit 88e01ebe8af0b91e37d1b80591bb350745464bec
+Merge: 51f8ac4 21f8d8e
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 13:16:56 2017 +0000
+
+    Merged in fil_log_handler (pull request #7)
+    
+    Fil log handler
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 21f8d8e2a45ff9edbc85f4f5076a1f1dee1da609
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 22:24:11 2017 +1000
+
+    Removed comments and updated regex groups
+
+commit 382c1c8dce524435859f65264e22aa1b830b1faa
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 22:19:19 2017 +1000
+
+    Removed not tests not relevant to 'Pizzas' and added a couple
+
+commit 5cde695455de0f98d4cfdcb91ee0c6b76f34feaa
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 22:01:58 2017 +1000
+
+    Updated LogHandler Pizza Tests
+
+commit eae218923131d4b6c03bbc087ddbcac609b8a637
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 22:01:38 2017 +1000
+
+    Completed personal section of LogHandler
+
+commit a835cc27ff5e33a7190edfe8b0cb6fba17aec31d
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 22:00:55 2017 +1000
+
+    Updated corrupted file
+
+commit 51f8ac48eb1b3227250d6a765947e9ec22a9fa68
+Merge: 3d021ff 73a5009
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 11:57:48 2017 +0000
+
+    Merged in customer_factory (pull request #6)
+    
+    Customer factory
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 73a5009a4c10aa7c38a46f9599dbbae9634f55d3
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 18:52:02 2017 +1000
+
+    Completed Customer Factory
+
+commit 786a817f0f66909d71c553bacbc08bbc42391c52
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 18:50:47 2017 +1000
+
+    Fixed some grammatical errors and test locations for deliveries
+
+commit 3d021fffbf638f6d50e1a0f239e15e64f4aff199
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 18:34:03 2017 +1000
+
+    Modified again Pizza tests. Previous version was correct
+
+commit c582324fa1899b2a332a90d2cccc19a8e8815c60
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 18:16:53 2017 +1000
+
+    Small fixes for Pizza tests
+
+commit 4b6e4007ba1ecd30014f6ab5ca3b192955ab9287
+Merge: 56dc5cb 1d773f1
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 08:08:05 2017 +0000
+
+    Merged in completing_pizza_tests (pull request #5)
+    
+    Completing pizza tests
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 1d773f1f68d9fd6e992dae7bfc325233dc24b4be
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 13 18:06:34 2017 +1000
+
+    Attempt 1 to remove conflicts,
+
+commit 56dc5cb18f9eab64f30aa8eac78544cc1bdf8084
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 8 01:42:46 2017 +1000
+
+    LogHandlerCustomerTests
+
+commit fb68607d7c4651a5ebbbfa865bc3227ea2a2d171
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 7 21:12:18 2017 +1000
+
+    Restaurant Customer tests
+
+commit 8c264b2cf2ea15990ae26abb708320da9ad1a2cb
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 7 16:32:26 2017 +1000
+
+    Customer Factory tests
+
+commit 44b35e87dd84f4de5fd6ba785ad4242654af6554
+Author: marks <marks@Shadowhunter>
+Date:   Sun May 7 15:38:05 2017 +1000
+
+    Updated Pizza's and customer tests
+
+commit 74b212b08038e03d2acd518397cd13b373c17949
+Merge: c0c662c 9bc2792
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 14:44:47 2017 +0000
+
+    Merged in restaurant_pizza_tests (pull request #4)
+    
+    Restaurant pizza tests
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit c0c662c9c387e603c43a87329f949853aea20712
+Merge: d3c312b 6121513
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 14:43:17 2017 +0000
+
+    Merged in pizza_factory_tests (pull request #3)
+    
+    Added tests for PizzaFactory()
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit d3c312bab26d28e1aad0ea5c0888b6cda78d9305
+Merge: 82d89e7 7231d61
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 14:42:32 2017 +0000
+
+    Merged in log_handler_pizza_tests (pull request #2)
+    
+    Log handler pizza tests
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 9bc2792136fc13ff7fa8e7f4515d7447032c7b3d
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 7 00:38:33 2017 +1000
+
+    Completed tests for pizzas in PizzaRestaurant()
+
+commit 3069bcc10fc1f348293e35139fc5bc6a8d38593a
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 7 00:23:44 2017 +1000
+
+    Added necessary imports
+
+commit 7231d61c44aa67bd3ea4efdfa5c36f403cbdd66b
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun May 7 00:10:31 2017 +1000
+
+    Removed unnecessary imports
+
+commit a472e0119607d131ef98d7916d287a47e8450de9
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 23:43:47 2017 +1000
+
+    Created pizza tests for LogHandler()
+
+commit 6121513602202f93401465690f9e2243f5e74f37
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 22:04:00 2017 +1000
+
+    Added tests for PizzaFactory()
+
+commit e6a23efa4247fea4b5d106f941ae602e592e2a2e
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 21:56:05 2017 +1000
+
+    Corrected equal assertion for strings
+
+commit d4eb3746d5d95a27cc0b8b460ed0b76663221a90
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 21:22:05 2017 +1000
+
+    Added a tests for null LocalTime
+
+commit 82d89e77ae63ca60887edf95317e7430b12db6b5
+Merge: 054d41f 4220135
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 11:09:54 2017 +0000
+
+    Merged in customer_class (pull request #1)
+    
+    Customer Class
+    
+    Approved-by: flcapurso <flcapurso@gmail.com>
+
+commit 4220135e7b41e16d8b24f8237ab8864efdc71fec
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 21:08:31 2017 +1000
+
+    Updated README
+
+commit 054d41f7edcc965db13edc5d8a29c11b4bf46af0
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 20:37:49 2017 +1000
+
+    Fixed some minor inconsistencies in testing (still A LOT to fix/test)
+
+commit 9bbc6a22cf5a6e7139b61ab3126bf2acbc2117f7
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 20:36:20 2017 +1000
+
+    Finished Customer() class
+
+commit 40393c1556412cf47d41a63c2a629095492f5375
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 20:11:59 2017 +1000
+
+    Added code to check for customer parameter requirements
+
+commit d31f8da91372f147c3fdef7bb1ee117a453fc574
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 19:36:42 2017 +1000
+
+    Completed the 3 subclasses including distance calc.
+
+commit 87847c1ca382cfa68a5ef6d68bf0d9c0caf0622b
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 18:56:31 2017 +1000
+
+    Completed Tests for Pizzas
+
+commit 9dca06c92b5543428c2483454f3c9ac35c1c305c
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 18:55:20 2017 +1000
+
+    Modified and corrected Pizza() abstarct class and subclasses
+
+commit 93ac9a8c9dbb4cd8dd5d101247713dbacd858ed1
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 13:02:52 2017 +1000
+
+    Fixed minor error for 3 tests
+
+commit b838a4f934f3fbdc209ad95cbb20277acd7f838c
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sat May 6 12:53:10 2017 +1000
+
+    Corrected Logs
+
+commit 2b3fb4f534a56993195e4cdb70810510cf84c14c
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 3 23:19:30 2017 +1000
+
+    CustomerTests 1
+
+commit d5a22fab93a27fe96113e72b26a400aee82a62aa
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed May 3 01:51:09 2017 +1000
+
+    Fixed error
+
+commit 475ec524c107a54c3926afe06f615c9962728d39
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Tue May 2 22:02:15 2017 +1000
+
+    Fixed all pizzas working and pizza file
+
+commit d2f402ea5d9d677bbb30186475eb90def6277d48
+Merge: 9c64787 5962792
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 1 21:08:35 2017 +1000
+
+    Merge remote-tracking branch 'origin/adding_tests_for_pizza'
+
+commit 9c64787cb70f7aadcdb575c0cc06d9b687438ca8
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 1 21:06:01 2017 +1000
+
+    pizza type
+
+commit 6208b653c7d375ad12f35e186f4c824f9007e0b7
+Author: marks <marks@Shadowhunter>
+Date:   Mon May 1 21:01:58 2017 +1000
+
+    Pizza method & pizza types written issues with pizza types
+
+commit 596279250e1d540ca483ba17f4e76d6b94aef46d
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Mon May 1 14:51:11 2017 +1000
+
+    Added tests for asgn2Pizzas.MargheritaPizza, asgn2Pizzas.MeatLoversPizza
+    and asgn2Pizzas.VegetarianPizza (all the same, just different classes)
+
+commit 919084d3499c8a7bb3d02cec2a4c20b71f9274e6
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun Apr 30 14:49:25 2017 +1000
+
+    Testing (again)
+
+commit 0078762829f7f84cbb195fd40d844f13f911de41
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Sun Apr 30 14:47:43 2017 +1000
+
+    Testing from local Eclipse
+
+commit 0aa9fedd5aa538b6ea1f778ff692c9b68cf93b50
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed Apr 26 00:31:49 2017 +1000
+
+    test_end
+
+commit 6c964c450c4634b25ec7945ac499d090c2115fd2
+Author: marks <marks@Shadowhunter.gateway>
+Date:   Wed Apr 26 00:29:06 2017 +1000
+
+    test
+
+commit 2ecbdb9d5e52f38da09a56264fc4be7565dab445
+Author: shadowhunter8818 <dead8818@gmail.com>
+Date:   Tue Apr 25 14:01:20 2017 +0000
+
+    README.md edited online with Bitbucket
+
+commit 623b0426d69a8ecc0ee61c26b6d4e20f60176c6a
+Author: shadowhunter8818 <dead8818@gmail.com>
+Date:   Tue Apr 25 14:01:07 2017 +0000
+
+    README.md edited online with Bitbucket
+
+commit 71e2dfe302f0d305578b9dc3ea484c0773a51d62
+Author: shadowhunter8818 <dead8818@gmail.com>
+Date:   Tue Apr 25 14:00:41 2017 +0000
+
+    README.md edited online with Bitbucket
+
+commit 4a6e5f6c731e02be3ced4250834739f391a498d7
+Author: flcapurso <flcapurso@gmail.com>
+Date:   Tue Apr 25 23:52:01 2017 +1000
+
+    first commit to test: updated readme
+
+commit 434d3ada012f0e03d37b9527d8f9bdff01ca572b
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:36:28 2017 +1000
+
+    .
+
+commit f748592b2f1fe58edc493dfacce042ef85c91244
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:05:34 2017 +1000
+
+    .
+
+commit dfba34718a2fd75e1bc3721b8770c7466003ab56
+Author: alan <awoodley@qut.edu.au>
+Date:   Tue Apr 25 18:04:54 2017 +1000
+
+    .
+
+commit e951c1e8b6ea69b11df52b6f3f175173c920375e
+Author: awoodley <a.woodley@qut.edu.au>
+Date:   Tue Apr 25 06:32:36 2017 +0000
+
+    .
